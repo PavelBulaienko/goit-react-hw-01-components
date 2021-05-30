@@ -1,0 +1,26 @@
+.transaction-history{
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: 10px 10px 6px -6px #777;
+    border: 1px solid #c7cacf;
+    border-radius: 10px;
+    .tableHeader{
+        background-color: #00BCD5;
+        border-radius: 10px;
+        th{
+            color: white;
+            border: none;
+            padding: 20px;
+            border-radius: 10px;
+        }
+    }
+    .transactionBody{
+        color: #636466;
+        .transactionItem{
+            text-align: center;
+            &:nth-child(2n){
+                background-color: #FFFFFF;
+            }
+        }
+    }
+}
